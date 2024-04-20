@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice for Free</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+    /* Container styles */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff; /* White container background color */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 40px;
+}
+
+/* Header styles */
+header {
+    background-color: #f9b8b8; /* Light pink header background color */
+    color: #fff; /* White header text color */
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Main content styles */
+#main-content {
+    text-align: center;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Button styles */
+button {
+    text-decoration: none;
+    background-color: rgb(135, 235, 160);
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: rgb(105, 205, 130); /* Darker shade of green on hover */
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Practice for Free</h1>
+        </header>
+
+        <div id="main-content">
+            <h2>Take a free practice test and estimate your score</h2>
+            <section>
+                <h3>Practice takes around 30 minutes</h3>
+                <h3>Get an unofficial score estimate</h3>
+                <h3>See what the test is like</h3>
+            </section>
+            <h4>* The practice test may include question types and reminders that do not appear on the certified test.</h4>
+            <button onclick="Redirect()" 
+style="text-decoration: none; background-color:rgb(135, 235, 160); font-size:30px; border-radius:10px; margin-top:30px; margin-left:20px">
+<a style="text-decoration: none; " href="project.html">GO TO PRACTICE TEST </a></button>
+  </div>
+    </div>
+
+    <script>
+        function Redirect() {
+            alert('Test is currently unavailable. Redirecting you to the home page.');
+            // Add your redirection code here
+        }
+    </script>
+</body>
+</html>
