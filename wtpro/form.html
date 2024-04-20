@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>FluentCraft Login</title>
+<link rel = "stylesheet" type = "text/css" href = "style.css"></head>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+            background-color: #ADD8E6; 
+        }
+        
+        frm {
+            width: 300px;
+            margin: 100px auto; 
+            text-align: center;
+            background-color: #F4C2C2; 
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+        .form-group {
+            margin-top:30px;
+            margin-bottom: 15px;
+            margin-left:550px;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+        }
+
+        
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 30%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #cccccc; 
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+
+        input[type="submit"] {
+            background-color: #af4c7a;
+            color: white;
+            border: #555555;
+            cursor: pointer;
+            transition: background-color 0.3s ease; 
+        }
+
+        input[type="submit"]:hover {
+            background-color: #af4c7a;
+        }
+    
+    </style>
+<body>
+<div id = "frm">
+<h1>Login</h1>
+<form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">
+<p>
+<label> UserName: </label>
+<input type = "text" id ="user" name  = "user" />
+</p>
+<p>
+<label> Password: </label>
+<input type = "password" id ="pass" name  = "pass" />
+</p>
+<p>
+<input type =  "submit" id = "btn" value = "Login" />
+</p>
+</form>
+</div>
+
+<script>
+function validation()
+{
+var id=document.f1.user.value;
+var ps=document.f1.pass.value;
+if(id.length=="" && ps.length=="") {
+alert("User Name and Password fields are empty");
+return false;
+}
+else
+{
+if(id.length=="") {
+alert("User Name is empty");
+return false;
+}
+if (ps.length=="") {
+alert("Password field is empty");
+return false;
+}
+}
+}
+</script>
+</body>
+</html>

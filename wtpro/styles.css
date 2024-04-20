@@ -1,0 +1,165 @@
+Google Classroom
+Classroom
+3/4 CSM-WT
+A
+Assignment details
+Develop Main Project using Python/Express and MongoDB/MySql.  ( Lab experiment)
+sivajyothi csm
+•
+Apr 8
+100 points
+Due Apr 13
+Your work
+Turned in
+
+authentication.php
+PHP
+
+failed.html
+HTML
+
+form.html
+HTML
+
+login.php
+PHP
+
+practice.html
+HTML
+
+project.html
+HTML
+
+style.css
+Style Sheet
+
+styles.css
+Style Sheet
+
+Private comments
+Class comments
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #f9b8b8;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+h2
+{ 
+    text-align:center;
+}
+nav {
+    background-color: #fde8e8;
+    color: #000;
+    padding:0.3em;
+    padding: 20px 100px ;
+    width:100%
+    justify-content: space-between;
+    align-items:center;
+    z-index:99 ;
+
+}
+.navigation a{
+       position:relative;
+       font-size: 1.5em;
+       color: #000;
+       font-weight: 500;
+       margin-left: 80px;
+}
+
+
+
+
+
+nav b{
+    
+    
+    header{
+        background-color: #f9b8b8;
+        color:#000;
+        text-align: center;
+        padding: 1em;
+    }
+    h2{ text-align:center;
+    }
+    nav {
+        background-color: #fde8e8;
+        color: #000;
+        padding:0.3em;
+    }
+    nav b{
+        margin-left:70%;
+    }
+    nav ul {
+        list-style: none;
+        margin-left: 0;
+        padding: 0;
+        
+    }
+    
+    nav li {
+        display: inline;
+        margin-right:10px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color:#fff;
+    }
+    #main-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        
+    }
+    .content {
+        flex: 1;
+        padding-right: 20px;
+    }
+    .image {
+        flex: 1;
+    }
+    
+    .image{
+          display: flex;
+        }
+      .imagebox {
+        margin:10px;
+        text-align:center;
+      }
+  
+      .img{
+        max-width: 100%;
+        height:auto;
+      }
+      .image {
+        display: flex;
+        justify-content: space-around; /* Spread the items with equal space around them */
+      }
+      
+      .imagebox {
+        flex: 1; /* Distribute available space equally among the three imageboxes */
+        text-align: center; /* Center the content within each imagebox */
+      }
+      
+      .imagebox img {
+        max-width: 100%; /* Ensure the images don't exceed the width of the imagebox */
+      }
+     
+      
+      .center-text {
+        text-align: center;
+        margin-top: 20px; /* Adjust the margin-top value to control the space above the text */
+        margin-bottom: 20px; /* Adjust the margin-bottom value to control the space below the text */
+      }
+}
+styles.css
+Displaying styles.css.

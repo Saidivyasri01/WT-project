@@ -1,0 +1,130 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<title> Test your English Online </title>
+</head>
+<script>
+    function updateMessage() {
+               var firstName = document.getElementById('firstName').value;
+        var lastName = document.getElementById('lastName').value;
+               document.getElementById('updateParagraph').innerHTML = 'WELCOME ' + firstName + ' ' + lastName + '.' + 'Thank you for your feedback';
+    }
+   
+    function Redirect() {
+               alert('You will be redirected to the test page');
+               
+    }
+    function Func() {
+               alert('Feedback taken successfully');
+    }
+    
+   </script>
+
+<style>
+    #main-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      
+  }
+  .content {
+      flex: 1;
+      padding-right: 20px;
+  }
+  .image {
+      flex: 1;
+  }
+  
+  .image{
+        display: flex;
+  }
+
+  </style>
+<body>
+<marquee style= "font-size:20px";> Test your English Online </marquee>
+<header>
+<h1>FluentCraft English Test</h1>
+</header>
+
+<nav>
+    <nav class="navigation" >
+        <a herf="#">Taking the test</a>
+        <a herf="#">Accepting the test</a>
+        <a herf="#">Test Research</a>
+        <a style="text-decoration: none; padding: 7px;
+        background-color:skyblue;
+        border-radius:8px; margin-top:30px; margin-left:75px; font-size:30px;" href="form.html">Login</a>
+         <a style="text-decoration: none;background-color:skyblue;
+         border-radius:8px; margin-top:30px; margin-left:40px; padding: 7px; 
+         font-size:30px;" href="rish.php">Register</a>
+      </nav>
+
+<section id="main-content">
+<div style="margin-left: 50px; margin-top: 30px;">
+<h1 style= "margin-bottom:70px; font-size: 30px";>Certify your English proficiency today!</h1>
+    <h3 style= "font-size:20px ; margin-bottom:40px;">Test online anytime,anywhere </h3>
+    <h3 style= "font-size:20px;  margin-bottom:40px;">Finish in 1 hour and get results in 2 days </h3>
+    <h3 style= "font-size:20px;  margin-bottom:50px;">Accepted by over 4500 Universities </h3>
+    <button onclick="Redirect()" style="background-color:skyblue; font-size:30px; border-radius:10px; margin-top:30px; margin-left:20px"><a style="text-decoration: none;" href="practice.html">PRACTICE FREE</a></button><br>
+  </div>
+</div>
+<div style="margin-left: 300px; margin-top: 30px; margin-bottom: 30px;" class="image">
+    <img src="https://d23cwzsbkjbm45.cloudfront.net/static/images/wp/da0c12bab844e3569971.svg">
+    </div>
+    </section>
+
+
+
+
+<div>
+<h3 class="center-text"><center><b> On demand, anywhere in the world</center><b> <br>
+</div>
+
+<div class="image">
+    <div class="imagebox">
+      <img src="https://d23cwzsbkjbm45.cloudfront.net/static/images/wp/7f3afeb8d03858f5e1af.svg" alt="Image 1">
+      <h3>Convenient </h3>
+<p> Take the test online anywhere, anytime — no traveling to a test center  </p>
+    </div>
+<br>
+    
+ <div class="imagebox">
+      <img src="https://d23cwzsbkjbm45.cloudfront.net/static/images/wp/e7259a1effee7e8b96a0.svg" alt="Image 2">
+      <h3> Fast </h3>
+      <p> Get your results within 2 days of completing the test </p>
+    </div>
+
+    <div class="imagebox">
+      <img src="https://d23cwzsbkjbm45.cloudfront.net/static/images/wp/e2b4d673643684d90a33.svg" alt="Image 3">
+    <h3>Affordable</h3>
+      <p>Less cost </p>
+    </div>
+</div>
+
+<button onclick="this.innerHTML = Date()" style="background-color:skyblue; font-size:30px; border-radius:10px; margin-top:30px; margin-left:20px">Click me for time</button>
+<form onsubmit="Func()">
+<div style="
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+">
+
+<p id="updateParagraph">WELCOME TO FLUENTCRAFT.</p>
+<h2> Let us know how we can improve our website </h2><br><br>
+ <label> FIRST NAME: </label>
+        <input type="text" id="firstName" required oninput="updateMessage()" > <br> <br>
+
+ <label> LAST NAME: </label>
+        <input type="text" id="lastName" required oninput="updateMessage()" > <br> <br>
+<label> EMAIL:  </label>
+<input type="email" id="email" required/>  <br> <br>
+<input type="submit">
+
+</div>
+</form>
+
+
+</body>
+</html>
